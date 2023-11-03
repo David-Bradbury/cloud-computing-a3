@@ -1,0 +1,7 @@
+C:\Users\david\AppData\Local\Temp\af48a60d-b659-4fa5-8fb7-62d5de8ee04b\CloudComputingA3.exe
+C:\Users\david\AppData\Local\Temp\af48a60d-b659-4fa5-8fb7-62d5de8ee04b\appsettings.Development.json
+C:\Users\david\AppData\Local\Temp\af48a60d-b659-4fa5-8fb7-62d5de8ee04b\appsettings.json
+C:\Users\david\AppData\Local\Temp\af48a60d-b659-4fa5-8fb7-62d5de8ee04b\CloudComputingA3.dll
+C:\Users\david\AppData\Local\Temp\af48a60d-b659-4fa5-8fb7-62d5de8ee04b\CloudComputingA3.deps.json
+C:\Users\david\AppData\Local\Temp\af48a60d-b659-4fa5-8fb7-62d5de8ee04b\CloudComputingA3.runtimeconfig.json
+C:\Users\david\AppData\Local\Temp\af48a60d-b659-4fa5-8fb7-62d5de8ee04b\CloudComputingA3.pdb

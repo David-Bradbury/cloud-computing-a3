@@ -1,0 +1,10 @@
+C:\Users\david\AppData\Local\Temp\5a848fdd-0eab-4416-8f97-cc4555d95d22\CloudComputingA3.exe
+C:\Users\david\AppData\Local\Temp\5a848fdd-0eab-4416-8f97-cc4555d95d22\appsettings.Development.json
+C:\Users\david\AppData\Local\Temp\5a848fdd-0eab-4416-8f97-cc4555d95d22\appsettings.json
+C:\Users\david\AppData\Local\Temp\5a848fdd-0eab-4416-8f97-cc4555d95d22\CloudComputingA3.dll
+C:\Users\david\AppData\Local\Temp\5a848fdd-0eab-4416-8f97-cc4555d95d22\CloudComputingA3.deps.json
+C:\Users\david\AppData\Local\Temp\5a848fdd-0eab-4416-8f97-cc4555d95d22\CloudComputingA3.runtimeconfig.json
+C:\Users\david\AppData\Local\Temp\5a848fdd-0eab-4416-8f97-cc4555d95d22\CloudComputingA3.pdb
+C:\Users\david\AppData\Local\Temp\5a848fdd-0eab-4416-8f97-cc4555d95d22\AWSSDK.Core.dll
+C:\Users\david\AppData\Local\Temp\5a848fdd-0eab-4416-8f97-cc4555d95d22\AWSSDK.DynamoDBv2.dll
+C:\Users\david\AppData\Local\Temp\5a848fdd-0eab-4416-8f97-cc4555d95d22\AWSSDK.S3.dll

@@ -1,0 +1,48 @@
+﻿@model RegisterViewModel
+
+
+@{
+    ViewData["Title"] = "Register";
+}
+
+<h1 class="display-4">Register</h1>
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Register" enctype="multipart/form-data">
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Username" class="control-label"></label>
+                <input asp-for="Username" class="form-control" />
+                <span asp-validation-for="Username" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label for="Password" class="control-label">Password</label>
+                <input id="Password" name="Password" type="password" class="form-control"
+                       data-val="true" data-val-required="The Password field is required." />
+                @Html.ValidationMessage("Password", new { @class = "text-danger" })
+            </div>
+
+            <div class="form-group">
+                <label asp-for="UserImage" class="control-label"></label>
+                <input asp-for="UserImage" id="ProfileImage1" accept=".jpg, .jpeg, .png" onchange="validateFileType()" class="form-control" />
+                <span asp-validation-for="UserImage" class="text-danger"></span>
+            </div>
+
+            <div class="form-group" style="padding-top: 15px">
+                <input type="submit" value="Register" class="btn btn-primary" />
+            </div>
+            @Html.ValidationMessage("RegisterFailure", new { @class = "text-danger" })
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    }

@@ -1,0 +1,78 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "CloudComputingA3/1.0.0": {
+        "dependencies": {
+          "AWSSDK.DynamoDBv2": "3.7.203.12",
+          "AWSSDK.S3": "3.7.205.22"
+        },
+        "runtime": {
+          "CloudComputingA3.dll": {}
+        }
+      },
+      "AWSSDK.Core/3.7.204.12": {
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.204.12"
+          }
+        }
+      },
+      "AWSSDK.DynamoDBv2/3.7.203.12": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.204.12"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.DynamoDBv2.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.203.12"
+          }
+        }
+      },
+      "AWSSDK.S3/3.7.205.22": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.204.12"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.205.22"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CloudComputingA3/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AWSSDK.Core/3.7.204.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iTiZuiq04nUEgTVvydFg5yTtBNCauztVXA/nbibb875g3xFk1ZDxnVw6MdBI8jDT9tuPHg8I5AG4qN7rWYnUAA==",
+      "path": "awssdk.core/3.7.204.12",
+      "hashPath": "awssdk.core.3.7.204.12.nupkg.sha512"
+    },
+    "AWSSDK.DynamoDBv2/3.7.203.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8HBwqxGja7+DlsTvv5VrhJUvDqz3qQRh71gkiEZCXGWYa+7lv572jso2ZpJOnVdeuXVP7FThHgg6ya9genoP1Q==",
+      "path": "awssdk.dynamodbv2/3.7.203.12",
+      "hashPath": "awssdk.dynamodbv2.3.7.203.12.nupkg.sha512"
+    },
+    "AWSSDK.S3/3.7.205.22": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NTESNeLK7bfzlkBk4PE1vESrkd+er5h5fL90Lox3eOUu+bLN9bS1/5h2mnMMUc5PvQlH+nemPGd6jujp95Gk7A==",
+      "path": "awssdk.s3/3.7.205.22",
+      "hashPath": "awssdk.s3.3.7.205.22.nupkg.sha512"
+    }
+  }
+}
