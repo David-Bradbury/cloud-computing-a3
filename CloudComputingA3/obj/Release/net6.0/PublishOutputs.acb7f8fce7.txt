@@ -1,0 +1,12 @@
+C:\Users\david\AppData\Local\Temp\b5c1ec88-fe28-4a27-8296-2b182dad73e9\CloudComputingA3.exe
+C:\Users\david\AppData\Local\Temp\b5c1ec88-fe28-4a27-8296-2b182dad73e9\appsettings.Development.json
+C:\Users\david\AppData\Local\Temp\b5c1ec88-fe28-4a27-8296-2b182dad73e9\appsettings.json
+C:\Users\david\AppData\Local\Temp\b5c1ec88-fe28-4a27-8296-2b182dad73e9\CloudComputingA3.dll
+C:\Users\david\AppData\Local\Temp\b5c1ec88-fe28-4a27-8296-2b182dad73e9\CloudComputingA3.deps.json
+C:\Users\david\AppData\Local\Temp\b5c1ec88-fe28-4a27-8296-2b182dad73e9\CloudComputingA3.runtimeconfig.json
+C:\Users\david\AppData\Local\Temp\b5c1ec88-fe28-4a27-8296-2b182dad73e9\CloudComputingA3.pdb
+C:\Users\david\AppData\Local\Temp\b5c1ec88-fe28-4a27-8296-2b182dad73e9\AWSSDK.Core.dll
+C:\Users\david\AppData\Local\Temp\b5c1ec88-fe28-4a27-8296-2b182dad73e9\AWSSDK.DynamoDBv2.dll
+C:\Users\david\AppData\Local\Temp\b5c1ec88-fe28-4a27-8296-2b182dad73e9\AWSSDK.S3.dll
+C:\Users\david\AppData\Local\Temp\b5c1ec88-fe28-4a27-8296-2b182dad73e9\GoogleMapsApi.dll
+C:\Users\david\AppData\Local\Temp\b5c1ec88-fe28-4a27-8296-2b182dad73e9\Newtonsoft.Json.dll

@@ -22,7 +22,13 @@
                         @{
                             var isLoggedIn = Context.Session.TryGetValue("Username", out var storedIDBytes);
                         }
-                        @if (isLoggedIn){
+                        @if (isLoggedIn)
+                        {
+                            <li class="nav-item">
+                                <div class="user-image-container">
+                                    <img src=@Context.Session.GetString("ImgUrl") />
+                                </div>
+                            </li>
                             <li class="nav-item">
                                 <p class="nav-link text-dark">@Context.Session.GetString("Username")</p>
                             </li>

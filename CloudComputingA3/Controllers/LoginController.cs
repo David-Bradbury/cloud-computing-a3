@@ -34,12 +34,14 @@ namespace CloudComputingA3.Controllers
 
                     string storedPassword = passwordValue.S;
                     response.Item.TryGetValue("username", out var storedUsername);
+                    response.Item.TryGetValue("img_url", out var storedImgUrl);
 
                     if (password == storedPassword)
                     {
 
                         HttpContext.Session.SetString("Username", storedUsername.S);
                         HttpContext.Session.SetString("Email", email);
+                        HttpContext.Session.SetString("ImgUrl", storedImgUrl.S);
 
                         return RedirectToAction("Index", "Main");
                     }

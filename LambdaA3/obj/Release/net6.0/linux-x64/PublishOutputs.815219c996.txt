@@ -1,0 +1,7 @@
+C:\Users\david\Documents\GitHub\cloud-computing-a3\LambdaA3\bin\Release\net6.0\publish\LambdaA3.deps.json
+C:\Users\david\Documents\GitHub\cloud-computing-a3\LambdaA3\bin\Release\net6.0\publish\LambdaA3.runtimeconfig.json
+C:\Users\david\Documents\GitHub\cloud-computing-a3\LambdaA3\bin\Release\net6.0\publish\LambdaA3.pdb
+C:\Users\david\Documents\GitHub\cloud-computing-a3\LambdaA3\bin\Release\net6.0\publish\Amazon.Lambda.Core.dll
+C:\Users\david\Documents\GitHub\cloud-computing-a3\LambdaA3\bin\Release\net6.0\publish\Amazon.Lambda.Serialization.SystemTextJson.dll
+C:\Users\david\Documents\GitHub\cloud-computing-a3\LambdaA3\bin\Release\net6.0\publish\Newtonsoft.Json.dll
+C:\Users\david\Documents\GitHub\cloud-computing-a3\LambdaA3\bin\Release\net6.0\publish\LambdaA3.dll

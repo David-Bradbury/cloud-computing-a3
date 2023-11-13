@@ -1,8 +1,11 @@
 ﻿@{
     ViewData["Title"] = "Main Page";
+    var travelTime = ViewBag.TravelTime;
 }
 
 <div class="text-center">
     <h1 class="display-4">Main Page</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
+
+<div><h6 class="display-6">Travel Time: @travelTime </h6></div>

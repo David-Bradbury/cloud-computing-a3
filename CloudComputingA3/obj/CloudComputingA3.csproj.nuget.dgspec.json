@@ -47,6 +47,14 @@
             "AWSSDK.S3": {
               "target": "Package",
               "version": "[3.7.205.22, )"
+            },
+            "GoogleMapsApi": {
+              "target": "Package",
+              "version": "[1.2.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             }
           },
           "imports": [

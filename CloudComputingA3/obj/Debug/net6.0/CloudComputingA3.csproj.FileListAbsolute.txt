@@ -28,3 +28,5 @@ C:\Users\david\Documents\GitHub\cloud-computing-a3\CloudComputingA3\obj\Debug\ne
 C:\Users\david\Documents\GitHub\cloud-computing-a3\CloudComputingA3\obj\Debug\net6.0\CloudComputingA3.pdb
 C:\Users\david\Documents\GitHub\cloud-computing-a3\CloudComputingA3\obj\Debug\net6.0\CloudComputingA3.genruntimeconfig.cache
 C:\Users\david\Documents\GitHub\cloud-computing-a3\CloudComputingA3\obj\Debug\net6.0\ref\CloudComputingA3.dll
+C:\Users\david\Documents\GitHub\cloud-computing-a3\CloudComputingA3\bin\Debug\net6.0\GoogleMapsApi.dll
+C:\Users\david\Documents\GitHub\cloud-computing-a3\CloudComputingA3\bin\Debug\net6.0\Newtonsoft.Json.dll

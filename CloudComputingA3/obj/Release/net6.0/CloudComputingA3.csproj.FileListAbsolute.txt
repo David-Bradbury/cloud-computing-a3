@@ -28,3 +28,5 @@ C:\Users\david\Documents\GitHub\cloud-computing-a3\CloudComputingA3\bin\Release\
 C:\Users\david\Documents\GitHub\cloud-computing-a3\CloudComputingA3\bin\Release\net6.0\AWSSDK.DynamoDBv2.dll
 C:\Users\david\Documents\GitHub\cloud-computing-a3\CloudComputingA3\bin\Release\net6.0\AWSSDK.S3.dll
 C:\Users\david\Documents\GitHub\cloud-computing-a3\CloudComputingA3\obj\Release\net6.0\CloudComputingA3.csproj.CopyComplete
+C:\Users\david\Documents\GitHub\cloud-computing-a3\CloudComputingA3\bin\Release\net6.0\GoogleMapsApi.dll
+C:\Users\david\Documents\GitHub\cloud-computing-a3\CloudComputingA3\bin\Release\net6.0\Newtonsoft.Json.dll

@@ -1,4 +1,8 @@
+using CloudComputingA3.BackgroundServices;
+
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddHostedService<RouteCheckBackgroundService>();
 
 builder.Services.AddSession(options =>
 {
@@ -24,5 +28,13 @@ app.UseSession();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+
+DateTime currentDateTime = DateTime.UtcNow;
+DateTime date = currentDateTime.Date;
+TimeSpan time = currentDateTime.TimeOfDay;
+
+
+string timeString = time.ToString(@"hh\:mm\:ss");
+string dateString = date.ToString("dd/MM/yyyy");
 
 app.Run();
