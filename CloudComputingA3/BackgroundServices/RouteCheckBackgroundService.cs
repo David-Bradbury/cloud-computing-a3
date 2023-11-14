@@ -63,13 +63,18 @@ namespace CloudComputingA3.BackgroundServices
         {
             //convert to usable data
             int duration = ConvertToInt(travelTime);
-            DateTime currentDateTime = DateTime.UtcNow;
-            DateTime date = currentDateTime.Date;
-            TimeSpan time = currentDateTime.TimeOfDay;
+            DateTime currentDateTimeUtc = DateTime.UtcNow;
+
+
+            TimeZoneInfo sydneyTimeZone = TimeZoneInfo.FindSystemTimeZoneById("AUS Eastern Standard Time");
+            DateTime currentDateTimeSydney = TimeZoneInfo.ConvertTimeFromUtc(currentDateTimeUtc, sydneyTimeZone);
+            DateTime date = currentDateTimeSydney.Date;
+            TimeSpan time = currentDateTimeSydney.TimeOfDay;
 
 
             string timeString = time.ToString(@"hh\:mm\:ss");
             string dateString = date.ToString("dd/MM/yyyy");
+         
 
             //If conversion failed, skip storing to DB
             if (duration != Int32.MaxValue)

@@ -1,11 +1,39 @@
-﻿@{
+﻿@model MainPageViewModel
+
+@{
     ViewData["Title"] = "Main Page";
-    var travelTime = ViewBag.TravelTime;
+    //var todaysAverage = ViewBag.TodaysAverageString;
+    //var yesterdaysAverage = ViewBag.YesterdaysAverageString;
+    //var routesToday = ViewBag.RoutesToday;
 }
 
 <div class="text-center">
-    <h1 class="display-4">Main Page</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">Central Coast To Sydney Trip Time </h1>
+
 </div>
 
-<div><h6 class="display-6">Travel Time: @travelTime </h6></div>
+<div><h6 class="display-6">Todays Average: @Model.TodaysAverage </h6></div>
+<br />
+<div><h6 class="display-6">Yesterdays Average: @Model.YesterdaysAverage </h6></div>
+<br />
+<div class="text-center">
+    <h1 class="display-6">Todays Travel Times </h1>
+</div>
+<br />
+<table class="table">
+    <tr>
+        <th>Date</th>
+        <th>Time</th>
+        <th> Duration</th>
+
+    </tr>
+    @foreach (var route in Model.RouteTimes)
+    {
+        <tr>
+            <td> @route.Date</td>
+            <td> @route.Time</td>
+            <td> @route.Duration</td>
+        </tr>
+
+    }
+</table>
