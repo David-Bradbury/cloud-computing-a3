@@ -1,9 +1,9 @@
-#CCTripPlanner
+# CCTripPlanner
 This repository is an assignment submission for RMIT- Cloud Computing course. It was designed 
 around incorporating multiple cloud technologies provided by AWS. It also makes use of GCP's
 Google Maps- Distance Matrix API. Any plagarism will be reported.
 
-##Summary
+## Summary
 The CC Route Planner is a specialised web application designed to facilitate travel planning
 between NSW's Central Coast and Sydney. Utilising the Google Maps API, it accurately
 calculates travel times, accounting for traffic, between Kariong (Central Coast) and Sydney
