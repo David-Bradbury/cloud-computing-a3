@@ -14,6 +14,7 @@ CBD. Key features include the following:
 - Average travel time for current day
 - Average travel time for previous day
 - A list of recent estimated trip durations calculated every half an hour.
+
 The following services were used in the production of this application:
 - AWS Elastic Beanstalk
 - AWS S3
