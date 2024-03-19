@@ -2,7 +2,7 @@
 This repository is an assignment submission for RMIT- Cloud Computing course. It was designed 
 around incorporating multiple cloud technologies provided by AWS. It also makes use of GCP's
 Google Maps- Distance Matrix API. Any plagarism will be reported.
-[CC Trip Planner](http://cloudcomputinga3-dev.eba-zznqjixb.us-east-1.elasticbeanstalk.com)
+
 
 ## Summary
 The CC Route Planner is a specialised web application designed to facilitate travel planning
